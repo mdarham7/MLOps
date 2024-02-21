@@ -29,7 +29,7 @@ class ModelPusher:
             self.s3.upload_file(
                 "model/model.pt",
                 "model.pt",
-                "lungxray24",
+                "lungxray241",
                 remove=False,
             )
             logging.info("Uploaded best model to s3 bucket")
