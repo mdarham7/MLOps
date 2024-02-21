@@ -5,7 +5,7 @@ from xray.entity.config_entity import ModelPusherConfig
 from xray.exception import XRayException
 from xray.logger import logging
 
-
+#Model pusher
 class ModelPusher:
     def __init__(self,model_pusher_config: ModelPusherConfig):
 
