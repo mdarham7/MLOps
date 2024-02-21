@@ -13,7 +13,7 @@ class ModelPusher:
         self.s3 = S3Operation()
 
 
-    # initiating model pushher
+    # initiating model pusher and processing
     def initiate_model_pusher(self):
 
         """
